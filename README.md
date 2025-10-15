@@ -1,1 +1,1 @@
-# telco-customer-churn-prediction-eda-scripting-mlflow
+# bank-customer-churn-prediction-eda-scripting-mlflow
