@@ -1,0 +1,3 @@
+# Ignore environment files containing API keys
+.env
+config.py
