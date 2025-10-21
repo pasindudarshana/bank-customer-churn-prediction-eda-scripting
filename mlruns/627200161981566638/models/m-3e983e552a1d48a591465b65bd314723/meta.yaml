@@ -1,0 +1,10 @@
+artifact_location: file:D:/MY FILES/Projects/bank-customer-churn-prediction-eda-scripting/mlruns/627200161981566638/models/m-3e983e552a1d48a591465b65bd314723/artifacts
+creation_timestamp: 1761036085890
+experiment_id: '627200161981566638'
+last_updated_timestamp: 1761036090445
+model_id: m-3e983e552a1d48a591465b65bd314723
+model_type: null
+name: model
+source_run_id: a3fc97062e8e40dd911f460149803f73
+status: 2
+status_message: null

@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/Users/1zuu/Dropbox/Zuu Crew/Courses/Building Production-Ready Machine Learning Systems/Live Classes/Week 05/.venv/bin/python",
+    "python.analysis.extraPaths": [
+        "./utils",
+        "./src"
+    ]
+}

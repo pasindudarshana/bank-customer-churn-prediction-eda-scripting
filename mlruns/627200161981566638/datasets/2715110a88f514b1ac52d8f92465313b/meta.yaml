@@ -1,0 +1,16 @@
+digest: ec01e0f1
+name: raw_churn_data
+profile: '{"num_rows": 10000, "num_elements": 150000}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "RowNumber", "required": true},
+  {"type": "long", "name": "CustomerId", "required": true}, {"type": "string", "name":
+  "Firstname", "required": false}, {"type": "string", "name": "Lastname", "required":
+  false}, {"type": "long", "name": "CreditScore", "required": true}, {"type": "string",
+  "name": "Geography", "required": true}, {"type": "string", "name": "Gender", "required":
+  false}, {"type": "double", "name": "Age", "required": false}, {"type": "long", "name":
+  "Tenure", "required": true}, {"type": "double", "name": "Balance", "required": true},
+  {"type": "long", "name": "NumOfProducts", "required": true}, {"type": "long", "name":
+  "HasCrCard", "required": true}, {"type": "long", "name": "IsActiveMember", "required":
+  true}, {"type": "double", "name": "EstimatedSalary", "required": true}, {"type":
+  "long", "name": "Exited", "required": true}]}'
+source: '{"uri": "data/raw/ChurnModelling.csv"}'
+source_type: local
