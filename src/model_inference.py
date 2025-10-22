@@ -223,20 +223,21 @@ class ModelInference:
                 logger.info("Applying feature binning for CreditScore...")
                 original_score = df['CreditScore'].iloc[0]
                 
-                # Create binned column without dropping original
+                # Create binned column and drop the original
                 def assign_bin(value):
                     if value <= 580:
-                        return 0  # Poor
+                        return "Poor"
                     elif value <= 670:
-                        return 1  # Fair
+                        return "Fair"
                     elif value <= 740:
-                        return 2  # Good
+                        return "Good"
                     elif value <= 800:
-                        return 3  # Very Good
+                        return "Very Good"
                     else:
-                        return 4  # Excellent
+                        return "Excellent"
                 
                 df['CreditScoreBins'] = df['CreditScore'].apply(assign_bin)
+                del df['CreditScore']  # Drop original tenure column
                 binned_score = df['CreditScoreBins'].iloc[0]
                 logger.info(f"  ✓ CreditScore binned: {original_score} → {binned_score} (kept original column)")
             else:

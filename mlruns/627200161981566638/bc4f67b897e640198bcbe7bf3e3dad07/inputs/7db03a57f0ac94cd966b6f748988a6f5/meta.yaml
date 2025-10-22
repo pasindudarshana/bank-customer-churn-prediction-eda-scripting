@@ -1,6 +1,0 @@
-destination_id: 2715110a88f514b1ac52d8f92465313b
-destination_type: RUN
-source_id: 2715110a88f514b1ac52d8f92465313b
-source_type: DATASET
-tags:
-  mlflow.data.context: raw_data
