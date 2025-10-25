@@ -1,0 +1,14 @@
+artifact_uri: file:D:/MY FILES/Projects/bank-customer-churn-prediction-eda-scripting/mlruns/593516906431573895/c2d9bf9bae21425d9c823658a0c0c21a/artifacts
+end_time: 1761391853838
+entry_point_name: ''
+experiment_id: '593516906431573895'
+lifecycle_stage: active
+run_id: c2d9bf9bae21425d9c823658a0c0c21a
+run_name: data pipeline | 2025-10-25 17:00:52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761391853285
+status: 3
+tags: []
+user_id: pasin

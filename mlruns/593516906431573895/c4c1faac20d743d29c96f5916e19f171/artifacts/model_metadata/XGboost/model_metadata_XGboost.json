@@ -1,0 +1,13 @@
+{
+  "model_name": "XGboost",
+  "model_type": "XGBClassifier",
+  "model_parameters": {
+    "n_estimators": 100,
+    "max_depth": 10,
+    "random_state": 42
+  },
+  "training_time_seconds": 0.5747506618499756,
+  "sklearn_version": "1.7.2",
+  "model_size_mb": 0.8364286422729492,
+  "timestamp": "2025-10-25T17:01:10.270630"
+}
